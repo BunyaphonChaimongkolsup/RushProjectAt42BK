@@ -1,0 +1,114 @@
+html,body {
+    background-color: white;
+    font-size:100%;
+    padding-top:56px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    width:400px;
+}
+
+.big {
+    font-family: 'Roboto', sans-serif;
+    font-size:35px;
+    margin:45px;
+}
+
+.text-container {
+    font-size:1.2em;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size:50px;
+    text-align: center;
+}
+
+.text {
+    margin:33px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size:21px;
+    text-align: center;
+}
+
+.image-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px;
+}
+
+.image-row img {
+    display: block;
+    margin: 0 auto;
+    max-width: 27%;
+    height: auto;
+    width:160px;
+}
+
+.image-row2 {
+    display: flex;
+    align-items: center;
+    margin: 60px;
+    justify-content: space-around;
+}
+
+.image-row2 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    height: auto;
+    width:200px;
+    padding: 10px;
+}
+
+.text2 {
+    font-size:25px;
+    text-align: center;
+}
+
+.text3 {
+    margin:33px;
+    font-family: 'Kanit', sans-serif;
+    font-size:35px;
+    text-align: center;
+}
+
+.image-row3 {
+    display: flex;
+    align-items: center;
+    margin: 60px;
+    justify-content: space-around;
+}
+
+.image-row3 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 40%;
+    height: auto;
+    width:400px;
+}
+
+.p {
+    padding-left: 25px;
+}
+
+.user-pic {
+    width:300px;
+    border-radius:10%;
+    top:50%;
+    left:50%;
+    transform: translate(-0%,-0%);
+    padding:8px;
+    background:linear-gradient(135deg,red,blue 50%, transparent 50%);
+    background-size:320%;
+    background-position:100% 100%;
+    transition:background 0.8s;
+}
+
+.user-pic:hover{
+    background-position:0% 0%;
+}

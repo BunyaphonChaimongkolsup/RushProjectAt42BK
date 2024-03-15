@@ -1,0 +1,46 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 30%;
+    }
+img {
+    border-radius: 50%;
+}
+.container{
+    background-color: yellow;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    }
+.box1{
+text-align:center; color: yellow; width: 100%;
+}
+.box2{
+text-align: center; color: yellow; width: 100%;
+}
+.center1{
+    text-align: center;
+}
+.image-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px;
+}
+.image-row img {
+    display: block;
+    margin: 0 auto;
+    max-width: 27%;
+    height: auto;
+    width:160px;
+}
+.pro{
+    font-size: 50px; color: blue;
+}
+.con{
+    font-size: 50px; color: blue;
+}
+
+
